@@ -24,5 +24,10 @@ namespace Frame.Admin.Controllers
             var navigates = _navigateService.GetPermissionModels();
             return PartialView("_Sidebar", navigates);
         }
+
+        public ActionResult Get()
+        {
+            return View();
+        }
 	}
 }
