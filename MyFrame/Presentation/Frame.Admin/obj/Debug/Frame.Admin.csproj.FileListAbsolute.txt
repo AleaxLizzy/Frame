@@ -85,6 +85,7 @@ C:\Users\ChuPe\Desktop\MyFrame\MyFrame\MyFrame\MyFrame\Presentation\Frame.Admin\
 C:\Users\ChuPe\Desktop\MyFrame\MyFrame\MyFrame\MyFrame\Presentation\Frame.Admin\bin\sv\FluentValidation.resources.dll
 C:\Users\ChuPe\Desktop\MyFrame\MyFrame\MyFrame\MyFrame\Presentation\Frame.Admin\bin\tr\FluentValidation.resources.dll
 C:\Users\ChuPe\Desktop\MyFrame\MyFrame\MyFrame\MyFrame\Presentation\Frame.Admin\bin\zh-Hans\System.Web.Http.WebHost.resources.dll
+D:\gitRoot\Frame\MyFrame\Presentation\Frame.Admin\bin\System.Net.Http.Formatting.xml
 D:\gitRoot\Frame\MyFrame\Presentation\Frame.Admin\bin\Frame.Admin.dll.config
 D:\gitRoot\Frame\MyFrame\Presentation\Frame.Admin\bin\Frame.Admin.dll
 D:\gitRoot\Frame\MyFrame\Presentation\Frame.Admin\bin\Frame.Admin.pdb
@@ -136,7 +137,6 @@ D:\gitRoot\Frame\MyFrame\Presentation\Frame.Admin\bin\Microsoft.Practices.Unity.
 D:\gitRoot\Frame\MyFrame\Presentation\Frame.Admin\bin\Microsoft.Practices.Unity.Mvc.xml
 D:\gitRoot\Frame\MyFrame\Presentation\Frame.Admin\bin\Microsoft.Practices.Unity.RegistrationByConvention.xml
 D:\gitRoot\Frame\MyFrame\Presentation\Frame.Admin\bin\Newtonsoft.Json.xml
-D:\gitRoot\Frame\MyFrame\Presentation\Frame.Admin\bin\System.Net.Http.Formatting.xml
 D:\gitRoot\Frame\MyFrame\Presentation\Frame.Admin\bin\System.Web.Helpers.xml
 D:\gitRoot\Frame\MyFrame\Presentation\Frame.Admin\bin\System.Web.Http.xml
 D:\gitRoot\Frame\MyFrame\Presentation\Frame.Admin\bin\System.Web.Mvc.xml
