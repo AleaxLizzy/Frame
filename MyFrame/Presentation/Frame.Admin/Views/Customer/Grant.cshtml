@@ -1,0 +1,64 @@
+﻿@model SelectList
+@{
+    ViewBag.Title = "用户授权";
+    ViewBag.Nav = "用户授权";
+}
+@using (Html.BeginForm())
+{
+    Html.AntiForgeryToken();
+    <div class="form-group">
+        <input type="submit" class="btn btn-palegreen" id="btn_query" value="保存">
+        <a class="btn btn-default" href="@Url.Action("List","Customer")">返回</a>
+        <input type="hidden" name="customerId" value="@Request.RequestContext.RouteData.Values["id"].ToString()" />
+    </div>
+    <table class="table">
+        <tr>
+            <td>用户</td>
+            <td>角色列表</td>
+            <td>全选</td>
+        </tr>
+        @foreach (var group in Model.Items.OfType<SelectListItem>().GroupBy(x => x.Group))
+        {
+            <tr>
+                <td>@group.Key.Name</td>
+                <td>
+                    @foreach (var item in group)
+                    {
+                        <div class="checkbox col-lg-2 col-sm-2 col-xs-2">
+                            <label>
+                                <input type="checkbox" class="colored-success" name="roleIds" value="@item.Value" @(item.Selected ? Html.Raw("checked") : null)>
+                                <span class="text">@item.Text</span>
+                            </label>
+                        </div>
+                    }
+                </td>
+                <td>
+                    <div class="checkbox">
+                        <label>
+                            <input type="checkbox" class="colored-success check-all" name="check-all">
+                            <span class="text">全选</span>
+                        </label>
+                    </div>
+                </td>
+            </tr>
+        }
+    </table>
+
+}
+@section footer{
+    <script>
+        $(function () {
+            $(".check-all").on("click", function () {
+                var isChecked = $(this).prop("checked");
+                $(this).parent().parent().parent().prev().find("input").prop("checked", isChecked);
+            });
+
+            $(".colored-success").on("click", function () {
+                var isChecked = $(this).prop("checked");
+                if (isChecked == false) {
+                    $(this).parent().parent().parent().next().find("input").prop("checked", isChecked);
+                }
+            });
+        });
+    </script>
+}

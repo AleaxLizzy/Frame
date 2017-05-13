@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>bootstrapvalidator</id>
+    <version>1.0.0</version>
+    <title>bootstrapvalidator</title>
+    <authors>Devoops</authors>
+    <owners>Devoops</owners>
+    <licenseUrl>http://formvalidation.io/</licenseUrl>
+    <projectUrl>http://formvalidation.io/</projectUrl>
+    <iconUrl>http://formvalidation.io/</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>test for Devoops</description>
+    <summary>test for Devoops</summary>
+    <releaseNotes>test for Devoops</releaseNotes>
+    <copyright>http://formvalidation.io/</copyright>
+  </metadata>
+</package>

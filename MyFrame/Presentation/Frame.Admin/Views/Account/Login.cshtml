@@ -1,0 +1,55 @@
+﻿@model Frame.Service.Models.Users.LoginModel
+@{
+    Layout = null;
+}
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>登陆</title>
+    <meta name="description" content="login page" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="shortcut icon" href="~/assets/img/favicon.png" type="image/x-icon">
+
+    @Styles.Render("~/assets/bootstrap")
+    @Styles.Render("~/assets/base")
+    @Styles.Render("~/assets/beyond")
+</head>
+<body>
+    @Html.Partial("_Notifications")
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+        <div class="login-container animated fadeInDown">
+            <div class="loginbox bg-white">
+                <div class="loginbox-title">SIGN IN</div>
+                <div class="loginbox-or">
+                    <div class="or-line"></div>
+                    <div class="or">OR</div>
+                </div>
+                <div class="loginbox-textbox">
+                    @Html.EditorFor(x => x.Email, new { htmlAttributes = new { @class = "form-control", @placeholder = "邮箱" } })
+                    @Html.ValidationMessageFor(model => model.Email)
+                </div>
+                <div class="loginbox-textbox">
+                    @Html.PasswordFor(x => x.PassWord, new { @class = "form-control", @placeholder = "密码" })
+                    @Html.ValidationMessageFor(model => model.PassWord)
+                </div>
+                <div class="loginbox-forgot">
+                    <a href="">Forgot Password?</a>
+                </div>
+                <div class="loginbox-submit">
+                    <input type="submit" class="btn btn-primary btn-block" value="Login">
+                </div>
+                <div class="loginbox-signup">
+                    <a href="register.html">Sign Up With Email</a>
+                </div>
+            </div>
+        </div>
+
+    }
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @Scripts.Render("~/bundles/jquery-validate")
+</body>
+</html>

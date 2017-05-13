@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>bootstrap-table.mvc</id>
+    <version>1.1.1</version>
+    <title>bootstrap-table.mvc</title>
+    <authors>simonray</authors>
+    <owners>simonray</owners>
+    <licenseUrl>https://github.com/simonray/bootstrap-table.mvc/license.txt</licenseUrl>
+    <projectUrl>https://github.com/simonray/bootstrap-table.mvc</projectUrl>
+    <iconUrl>http://s21.postimg.org/ofntchto3/bootstrap_table.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>A fluent Html helper for the popular bootstrap-table plug-in.
+
+Source and examples available at https://github.com/simonray/bootstrap-table.mvc
+For bootstrap-table plug-in documentation visit https://github.com/wenzhixin/bootstrap-table</description>
+    <summary />
+    <releaseNotes>1.1.0 
+- Set column title as split camel-case.
+- Support for ordered model properties [Display(Order=#)].
+... visit project site for changelog.</releaseNotes>
+    <copyright>Copyright © 2015 simonray</copyright>
+    <tags>asp.net mvc html helper fluent bootstrap table list grid row</tags>
+    <dependencies>
+      <dependency id="bootstrap" version="3.3.1" />
+    </dependencies>
+  </metadata>
+</package>

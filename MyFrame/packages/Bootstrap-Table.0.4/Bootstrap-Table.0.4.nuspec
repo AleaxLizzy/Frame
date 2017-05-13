@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>Bootstrap-Table</id>
+    <version>0.4</version>
+    <title>Bootstrap Table</title>
+    <authors>Frej Norling</authors>
+    <owners>Frej Norling</owners>
+    <licenseUrl>https://github.com/frejnorling/bootstrap-table/blob/master/LICENCE</licenseUrl>
+    <projectUrl>https://github.com/frejnorling/bootstrap-table</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Bootstrap-table is a javascript plugin that makes it easy to add extended row information (by clicking on a row) in HTML tables with the help of Twitter Bootstrap.</description>
+    <summary />
+    <releaseNotes>* Fixed inline mode visiblity bug.
+* Fixed inline mode toggle bug.</releaseNotes>
+    <copyright>Copyright 2013 Frej Norling</copyright>
+    <tags>twitter css css3 html html5 less ui jquery table</tags>
+    <dependencies>
+      <dependency id="Twitter.Bootstrap" version="2.0.3" />
+      <dependency id="jQuery" version="1.7.2" />
+    </dependencies>
+  </metadata>
+</package>

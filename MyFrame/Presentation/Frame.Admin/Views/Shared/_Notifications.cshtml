@@ -1,0 +1,87 @@
+﻿@using Frame.Web.Framework.UI
+@{
+    //information messages
+    var informationMessages = new List<string>();
+    if (TempData[string.Format("htyd.notifications.{0}", NotifyType.Information)] != null)
+    {
+        informationMessages.AddRange(TempData[string.Format("htyd.notifications.{0}", NotifyType.Information)] as IList<string>);
+    }
+    if (ViewData[string.Format("htyd.notifications.{0}", NotifyType.Information)] != null)
+    {
+        informationMessages.AddRange(ViewData[string.Format("htyd.notifications.{0}", NotifyType.Information)] as IList<string>);
+    }
+
+    //success messages
+    var successMessages = new List<string>();
+    if (TempData[string.Format("htyd.notifications.{0}", NotifyType.Success)] != null)
+    {
+        successMessages.AddRange(TempData[string.Format("htyd.notifications.{0}", NotifyType.Success)] as IList<string>);
+    }
+    if (ViewData[string.Format("htyd.notifications.{0}", NotifyType.Success)] != null)
+    {
+        successMessages.AddRange(ViewData[string.Format("htyd.notifications.{0}", NotifyType.Success)] as IList<string>);
+    }
+
+    //warring messages
+    var warringMessages = new List<string>();
+    if (TempData[string.Format("htyd.notifications.{0}", NotifyType.Warring)] != null)
+    {
+        warringMessages.AddRange(TempData[string.Format("htyd.notifications.{0}", NotifyType.Warring)] as IList<string>);
+    }
+    if (ViewData[string.Format("htyd.notifications.{0}", NotifyType.Warring)] != null)
+    {
+        warringMessages.AddRange(ViewData[string.Format("htyd.notifications.{0}", NotifyType.Warring)] as IList<string>);
+    }
+
+
+    //error messages
+    var errorMessages = new List<string>();
+    if (TempData[string.Format("htyd.notifications.{0}", NotifyType.Error)] != null)
+    {
+        errorMessages.AddRange(TempData[string.Format("htyd.notifications.{0}", NotifyType.Error)] as IList<string>);
+    }
+    if (ViewData[string.Format("htyd.notifications.{0}", NotifyType.Error)] != null)
+    {
+        errorMessages.AddRange(ViewData[string.Format("htyd.notifications.{0}", NotifyType.Error)] as IList<string>);
+    }
+}
+@foreach (var message in informationMessages)
+{
+    <div class="alert alert-info fade in">
+        <button data-dismiss="alert" class="close close-sm" type="button">
+            <i class="fa fa-times"></i>
+        </button>
+        <i class="fa-fw fa fa-info"></i>
+        <strong>Well done!</strong> @Html.Raw(message)
+    </div>
+}
+@foreach (var message in successMessages)
+{
+    <div class="alert alert-success fade in">
+        <button data-dismiss="alert" class="close close-sm" type="button">
+            <i class="fa fa-times"></i>
+        </button>
+        <i class="fa-fw fa fa-check"></i>
+        <strong>Well done!</strong> @Html.Raw(message)
+    </div>
+}
+@foreach (var message in warringMessages)
+{
+    <div class="alert alert-warning fade in">
+        <button data-dismiss="alert" class="close close-sm" type="button">
+            <i class="fa fa-times"></i>
+        </button>
+        <i class="fa-fw fa fa-warning"></i>
+        <strong>Warning!</strong> @Html.Raw(message)
+    </div>
+}
+@foreach (var message in errorMessages)
+{
+    <div class="alert alert-danger fade in">
+        <button data-dismiss="alert" class="close close-sm" type="button">
+            <i class="fa fa-times"></i>
+        </button>
+        <i class="fa-fw fa fa-times"></i>
+        <strong>Oh snap!</strong> @Html.Raw(message)
+    </div>
+}
