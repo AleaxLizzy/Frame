@@ -30,9 +30,5 @@ namespace Frame.Admin.Controllers
             return View();
         }
 
-        public string post()
-        {
-            return "";
-        }
 	}
 }
