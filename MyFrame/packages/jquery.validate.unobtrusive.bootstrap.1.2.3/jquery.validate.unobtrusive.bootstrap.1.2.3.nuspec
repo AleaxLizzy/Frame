@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>jquery.validate.unobtrusive.bootstrap</id>
+    <version>1.2.3</version>
+    <title>jQuery Validate Unobtrusive for Bootstrap 3</title>
+    <authors>Sandro Caseiro</authors>
+    <owners>Sandro Caseiro</owners>
+    <licenseUrl>http://www.opensource.org/licenses/mit-license.php</licenseUrl>
+    <projectUrl>https://github.com/sandrocaseiro/jquery.validate.unobtrusive.bootstrap</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>A jQuery Validate Unobtrusive extension for Bootstrap 3</description>
+    <summary>A jQuery Validate Unobtrusive extension for Bootstrap 3</summary>
+    <releaseNotes>- Fixes highlight for fields without validation message span</releaseNotes>
+    <copyright>© Sandro Caseiro. All rights reserved.</copyright>
+    <tags>jquery validate unobtrusive bootstrap validation validator</tags>
+    <dependencies>
+      <dependency id="Microsoft.jQuery.Unobtrusive.Validation" version="3.1.0" />
+    </dependencies>
+  </metadata>
+</package>
