@@ -147,7 +147,6 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
-    <Folder Include="Views\Common\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\BundleConfig.cs" />
@@ -249,6 +248,8 @@
     <Content Include="assets\js\charts\sparkline\sparkline-init.js" />
     <Content Include="assets\js\colorpicker\jquery.minicolors.js" />
     <Content Include="assets\js\datatable\assets\swf\copy_csv_xls_pdf.swf" />
+    <Content Include="assets\js\datatable\bootstrap-table.js" />
+    <Content Include="assets\js\datatable\bootstrap-table.min.js" />
     <Content Include="assets\js\datatable\datatables-init.js" />
     <Content Include="assets\js\datatable\dataTables.bootstrap.min.js" />
     <Content Include="assets\js\datatable\dataTables.tableTools.min.js" />
@@ -292,7 +293,7 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
-    <Content Include="Scripts\bootstrap-table\bootstrap-table-zh-CN.js" />
+    <Content Include="assets\js\datatable\bootstrap-table-zh-CN.js" />
     <Content Include="Scripts\bootstrap-table\bootstrap-table.js" />
     <Content Include="Scripts\bootstrap-table\bootstrap-table.min.js" />
     <Content Include="Scripts\bootstrap-table\extensions\editable\bootstrap-table-editable.min.js" />

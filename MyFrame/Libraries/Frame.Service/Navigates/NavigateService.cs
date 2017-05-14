@@ -74,5 +74,30 @@ namespace Frame.Service.Navigates
                 }
             }
         }
+
+        public IList<NavigateModel> GetModelByCnd(NavigateCndModel cnd)
+        {
+            var query = from a in _navigateRepository.Table.Where(x => x.Active)
+                        select new NavigateModel
+                        {
+                            Id=a.Id,
+                            Name=a.Name,
+                            Controller=a.Controller,
+                            Active=a.Active,
+                            Action=a.Action,
+                            Sort=a.Sort,
+                            CreatedTime=a.CreatedTime,
+                            ParentId=a.ParentId
+                        };
+            if(cnd.ParentdId==0)
+            {
+                query = query.Where(x => x.ParentId == null);
+            }
+            if (cnd.ParentdId > 0)
+            {
+                query = query.Where(x => x.ParentId == cnd.ParentdId);
+            }
+            return query.ToList();
+        }
     }
 }

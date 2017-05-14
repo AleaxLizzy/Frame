@@ -67,6 +67,7 @@
   <ItemGroup>
     <Compile Include="InitializationTask\InitPermission.cs" />
     <Compile Include="Models\ConditionModelBase.cs" />
+    <Compile Include="Models\Navitages\NavigateCndModel.cs" />
     <Compile Include="Models\Navitages\NavigateModel.cs" />
     <Compile Include="Models\Role\CndModel\RoleCndModel.cs" />
     <Compile Include="Models\Role\RoleModel.cs" />

@@ -56,8 +56,8 @@ namespace Frame.Admin
                    "~/Scripts/jquery.validate.unobtrusive.min.js"));
 
             bundles.Add(new ScriptBundle("~/bundles/bootstarp-table").Include(
-                   "~/Scripts/bootstrap-table/bootstrap-table.min.js",
-                    "~/Scripts/bootstrap-table/bootstrap-table-zh-CN.js"));
+                   "~/assets/js/datatable/bootstrap-table.js",
+                    "~/assets/js/datatable/bootstrap-table-zh-CN.js"));
 
             bundles.Add(new ScriptBundle("~/bundles/bootstarp-datetime").Include(
                   "~/assets/js/datetime/moment.js",

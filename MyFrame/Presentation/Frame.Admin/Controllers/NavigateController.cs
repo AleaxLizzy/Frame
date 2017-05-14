@@ -9,6 +9,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using Frame.Util.Extension;
+using Frame.Web.Framework.Security;
 namespace Frame.Admin.Controllers
 {
     public class NavigateController : BaseController
@@ -27,8 +28,17 @@ namespace Frame.Admin.Controllers
         /// <returns></returns>
         public ActionResult List()
         {
-            return View();
+            var models = _navigateService.GetModelByCnd(new NavigateCndModel());
+            return View(models);
         }
 
+        [ActionAuthorize("NavigateList")]
+        [HttpPost]
+        public ActionResult AjaxList(int id = 0)
+        {
+            var cnd = new NavigateCndModel { PageSize = 100, ParentdId = id };
+            var models = _navigateService.GetModelByCnd(cnd);
+            return Json(new { rows = models });
+        }
     }
 }

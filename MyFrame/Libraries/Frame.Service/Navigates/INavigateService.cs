@@ -12,5 +12,7 @@ namespace Frame.Service.Navigates
     {
 
         IList<NavigateModel> GetPermissionModels();
+
+        IList<NavigateModel> GetModelByCnd(NavigateCndModel cnd);
     }
 }

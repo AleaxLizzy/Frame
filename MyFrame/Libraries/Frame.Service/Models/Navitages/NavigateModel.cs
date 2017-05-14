@@ -27,6 +27,8 @@ namespace Frame.Service.Models.Navitages
 
         public int? Sort { get; set; }
 
+        public DateTime CreatedTime { get; set; }
+
         public virtual ICollection<NavigateModel> Childrens { get; set; }
     }
 }
