@@ -120,3 +120,9 @@ D:\gitRoot\Frame\MyFrame\Presentation\Frame.Web.Framework\bin\Debug\zh-Hans\Syst
 D:\gitRoot\Frame\MyFrame\Presentation\Frame.Web.Framework\obj\Debug\Frame.Web.Framework.csprojResolveAssemblyReference.cache
 D:\gitRoot\Frame\MyFrame\Presentation\Frame.Web.Framework\obj\Debug\Frame.Web.Framework.dll
 D:\gitRoot\Frame\MyFrame\Presentation\Frame.Web.Framework\obj\Debug\Frame.Web.Framework.pdb
+D:\gitRoot\Frame\MyFrame\Presentation\Frame.Web.Framework\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\gitRoot\Frame\MyFrame\Presentation\Frame.Web.Framework\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+D:\gitRoot\Frame\MyFrame\Presentation\Frame.Web.Framework\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+D:\gitRoot\Frame\MyFrame\Presentation\Frame.Web.Framework\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.xml
+D:\gitRoot\Frame\MyFrame\Presentation\Frame.Web.Framework\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+D:\gitRoot\Frame\MyFrame\Presentation\Frame.Web.Framework\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.xml

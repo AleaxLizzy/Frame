@@ -66,6 +66,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="InitializationTask\InitPermission.cs" />
+    <Compile Include="Logger\ILogService.cs" />
+    <Compile Include="Logger\LogService.cs" />
     <Compile Include="Models\ConditionModelBase.cs" />
     <Compile Include="Models\Navitages\NavigateCndModel.cs" />
     <Compile Include="Models\Navitages\NavigateModel.cs" />

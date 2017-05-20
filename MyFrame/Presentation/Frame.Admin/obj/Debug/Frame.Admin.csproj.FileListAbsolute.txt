@@ -172,3 +172,9 @@ D:\gitRoot\Frame\MyFrame\Presentation\Frame.Admin\bin\zh-Hans\System.Web.Http.We
 D:\gitRoot\Frame\MyFrame\Presentation\Frame.Admin\obj\Debug\Frame.Admin.csprojResolveAssemblyReference.cache
 D:\gitRoot\Frame\MyFrame\Presentation\Frame.Admin\obj\Debug\Frame.Admin.dll
 D:\gitRoot\Frame\MyFrame\Presentation\Frame.Admin\obj\Debug\Frame.Admin.pdb
+D:\gitRoot\Frame\MyFrame\Presentation\Frame.Admin\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\gitRoot\Frame\MyFrame\Presentation\Frame.Admin\bin\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+D:\gitRoot\Frame\MyFrame\Presentation\Frame.Admin\bin\Microsoft.Practices.EnterpriseLibrary.Common.xml
+D:\gitRoot\Frame\MyFrame\Presentation\Frame.Admin\bin\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.xml
+D:\gitRoot\Frame\MyFrame\Presentation\Frame.Admin\bin\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+D:\gitRoot\Frame\MyFrame\Presentation\Frame.Admin\bin\Microsoft.Practices.EnterpriseLibrary.Logging.xml

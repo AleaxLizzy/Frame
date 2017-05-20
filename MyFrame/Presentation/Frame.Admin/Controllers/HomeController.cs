@@ -2,6 +2,7 @@
 using Frame.Web.Framework.Controllers;
 using Frame.Web.Framework.Security;
 using Frame.Web.Framework.UI;
+using Microsoft.Practices.EnterpriseLibrary.Logging;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -19,8 +20,21 @@ namespace Frame.Admin.Controllers
         }
         public ActionResult Index()
         {
-            var customer = _workContext.CurrentCustomer;
+            try
+            {
+                Test();
+            }
+            catch (Exception ex)
+            {
+                Logger.Write(ex);
+            }
+
             return View();
+        }
+
+        private void Test()
+        {
+            throw new DivideByZeroException();
         }
     }
 }

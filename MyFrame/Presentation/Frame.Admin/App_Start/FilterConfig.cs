@@ -1,4 +1,5 @@
-﻿using System.Web;
+﻿using Frame.Web.Framework.Exceptions;
+using System.Web;
 using System.Web.Mvc;
 
 namespace Frame.Admin
@@ -7,7 +8,7 @@ namespace Frame.Admin
     {
         public static void RegisterGlobalFilters(GlobalFilterCollection filters)
         {
-            filters.Add(new HandleErrorAttribute());
+            filters.Add(new ExceptionHandlingAttribute());
         }
     }
 }

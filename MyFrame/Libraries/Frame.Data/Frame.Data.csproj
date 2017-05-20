@@ -85,6 +85,7 @@
     <Compile Include="IRepository.cs" />
     <Compile Include="Mapping\Customers\CustomerMap.cs" />
     <Compile Include="Mapping\Customers\RoleMap.cs" />
+    <Compile Include="Mapping\Logger\LogMap.cs" />
     <Compile Include="Mapping\Navigates\NavigateMap.cs" />
     <Compile Include="Mapping\Permissions\EntityPermissionMap.cs" />
     <Compile Include="Mapping\Permissions\PermissionMap.cs" />

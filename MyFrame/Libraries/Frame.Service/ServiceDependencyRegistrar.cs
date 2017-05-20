@@ -1,4 +1,5 @@
 ﻿using Frame.Core.Infrastructure.DependencyManagement;
+using Frame.Service.Logger;
 using Frame.Service.Navigates;
 using Frame.Service.PermissionProvider;
 using Frame.Service.Permissions;
@@ -24,7 +25,7 @@ namespace Frame.Service
             container.RegisterType<IRoleService, RoleService>();
             container.RegisterType<INavigateService, NavigateService>();
             container.RegisterType<IEntityPermissionService, EntityPermissionService>();
-
+            container.RegisterType<ILogService, LogService>();
         }
     }
 }
