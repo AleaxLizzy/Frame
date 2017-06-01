@@ -29,7 +29,7 @@ namespace Frame.Web.Framework.Extension
             //设置首字母小写
             //jsonSerizlizerSetting.ContractResolver = new CamelCasePropertyNamesContractResolver();
             //设置日期的格式为：yyyy-MM-dd
-            jsonSerizlizerSetting.DateFormatString = "yyy-MM-dd";
+            //jsonSerizlizerSetting.DateFormatString = "yyy-MM-dd";
             var json = JsonConvert.SerializeObject(Data, Formatting.None, jsonSerizlizerSetting);
             response.Write(json);
         }

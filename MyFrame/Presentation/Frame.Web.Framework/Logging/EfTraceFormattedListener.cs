@@ -11,6 +11,7 @@ using System.Diagnostics;
 using Frame.Core.Infrastructure;
 using Frame.Service.Logger;
 using Frame.Core.Logs;
+using Frame.Util.Extension;
 namespace Frame.Web.Framework.Logging
 {
     public class EfTraceFormattedListener : FormattedTraceListenerBase
@@ -67,7 +68,7 @@ namespace Frame.Web.Framework.Logging
                 ThreadId = logEntry.Win32ThreadId,
                 Title = logEntry.Title,
                 CreatedTime = DateTime.Now.ToLocalTime(),
-                FormattedMessage = this.Formatter == null ? null : Formatter.Format(logEntry)
+                FormattedMessage = logEntry.ToJson()
             });
         }
     }

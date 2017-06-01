@@ -20,15 +20,7 @@ namespace Frame.Admin.Controllers
         }
         public ActionResult Index()
         {
-            try
-            {
-                Test();
-            }
-            catch (Exception ex)
-            {
-                Logger.Write(ex);
-            }
-
+            Test();
             return View();
         }
 

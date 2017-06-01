@@ -101,7 +101,6 @@ D:\gitRoot\Frame\MyFrame\Presentation\Frame.Web.Framework\bin\Debug\Microsoft.Pr
 D:\gitRoot\Frame\MyFrame\Presentation\Frame.Web.Framework\bin\Debug\Microsoft.Practices.Unity.xml
 D:\gitRoot\Frame\MyFrame\Presentation\Frame.Web.Framework\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
 D:\gitRoot\Frame\MyFrame\Presentation\Frame.Web.Framework\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.xml
-D:\gitRoot\Frame\MyFrame\Presentation\Frame.Web.Framework\bin\Debug\Newtonsoft.Json.xml
 D:\gitRoot\Frame\MyFrame\Presentation\Frame.Web.Framework\bin\Debug\System.Web.Helpers.xml
 D:\gitRoot\Frame\MyFrame\Presentation\Frame.Web.Framework\bin\Debug\System.Web.Mvc.xml
 D:\gitRoot\Frame\MyFrame\Presentation\Frame.Web.Framework\bin\Debug\System.Web.Razor.xml
@@ -126,3 +125,5 @@ D:\gitRoot\Frame\MyFrame\Presentation\Frame.Web.Framework\bin\Debug\Microsoft.Pr
 D:\gitRoot\Frame\MyFrame\Presentation\Frame.Web.Framework\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.xml
 D:\gitRoot\Frame\MyFrame\Presentation\Frame.Web.Framework\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
 D:\gitRoot\Frame\MyFrame\Presentation\Frame.Web.Framework\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.xml
+D:\gitRoot\Frame\MyFrame\Presentation\Frame.Web.Framework\bin\Debug\Newtonsoft.Json.pdb
+D:\gitRoot\Frame\MyFrame\Presentation\Frame.Web.Framework\bin\Debug\Newtonsoft.Json.xml

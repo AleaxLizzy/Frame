@@ -16,3 +16,10 @@ C:\Users\ChuPe\Desktop\MyFrame\MyFrame\MyFrame\MyFrame\Libraries\Frame.Util\bin\
 C:\Users\ChuPe\Desktop\MyFrame\MyFrame\MyFrame\MyFrame\Libraries\Frame.Util\bin\Debug\Newtonsoft.Json.dll
 C:\Users\ChuPe\Desktop\MyFrame\MyFrame\MyFrame\MyFrame\Libraries\Frame.Util\bin\Debug\Newtonsoft.Json.xml
 C:\Users\ChuPe\Desktop\MyFrame\MyFrame\MyFrame\MyFrame\Libraries\Frame.Util\obj\Debug\Frame.Util.pdb
+D:\gitRoot\Frame\MyFrame\Libraries\Frame.Util\bin\Debug\Frame.Util.dll
+D:\gitRoot\Frame\MyFrame\Libraries\Frame.Util\bin\Debug\Frame.Util.pdb
+D:\gitRoot\Frame\MyFrame\Libraries\Frame.Util\bin\Debug\Newtonsoft.Json.dll
+D:\gitRoot\Frame\MyFrame\Libraries\Frame.Util\bin\Debug\Newtonsoft.Json.xml
+D:\gitRoot\Frame\MyFrame\Libraries\Frame.Util\obj\Debug\Frame.Util.csprojResolveAssemblyReference.cache
+D:\gitRoot\Frame\MyFrame\Libraries\Frame.Util\obj\Debug\Frame.Util.dll
+D:\gitRoot\Frame\MyFrame\Libraries\Frame.Util\obj\Debug\Frame.Util.pdb
