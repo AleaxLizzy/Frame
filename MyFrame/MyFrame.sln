@@ -23,6 +23,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Frame.Util", "Libraries\Fra
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Frame.Admin", "Presentation\Frame.Admin\Frame.Admin.csproj", "{61713B82-A700-4998-94DF-D1F84147E1D0}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Plugin", "Plugin", "{610AD213-8B77-42A9-BFED-363A9DA44928}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Frame.Schedule", "Frame.Schedule\Frame.Schedule.csproj", "{EE44A84E-61D9-4EBB-A815-D3912D025F71}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -61,6 +65,10 @@ Global
 		{61713B82-A700-4998-94DF-D1F84147E1D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{61713B82-A700-4998-94DF-D1F84147E1D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{61713B82-A700-4998-94DF-D1F84147E1D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE44A84E-61D9-4EBB-A815-D3912D025F71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE44A84E-61D9-4EBB-A815-D3912D025F71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE44A84E-61D9-4EBB-A815-D3912D025F71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE44A84E-61D9-4EBB-A815-D3912D025F71}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -74,6 +82,7 @@ Global
 		{7371AF94-0ACB-402E-99DF-CCBCF7E5D1C8} = {B3C0B003-7A2F-423D-87D1-4A97F1935A98}
 		{BD4AF011-FBD1-4AA2-9186-9FA0663A23E1} = {B3C0B003-7A2F-423D-87D1-4A97F1935A98}
 		{61713B82-A700-4998-94DF-D1F84147E1D0} = {B3C0B003-7A2F-423D-87D1-4A97F1935A98}
+		{EE44A84E-61D9-4EBB-A815-D3912D025F71} = {610AD213-8B77-42A9-BFED-363A9DA44928}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		EnterpriseLibraryConfigurationToolBinariesPathV6 = packages\EnterpriseLibrary.Common.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.ExceptionHandling.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.Logging.6.0.1304.0\lib\NET45

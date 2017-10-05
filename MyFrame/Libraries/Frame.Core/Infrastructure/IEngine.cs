@@ -16,6 +16,8 @@ namespace Frame.Core.Infrastructure
 
         T Resolve<T>() where T : class;
 
+        T Resolve<T>(string key) where T : class;
+
         IEnumerable<T> ResolveAll<T>() where T : class;
     }
 }

@@ -65,6 +65,7 @@
     <Compile Include="Infrastructure\EngineContext.cs" />
     <Compile Include="Infrastructure\FrameEngine.cs" />
     <Compile Include="Infrastructure\IEngine.cs" />
+    <Compile Include="Infrastructure\ISchedulerProvider.cs" />
     <Compile Include="Infrastructure\ServiceContainer.cs" />
     <Compile Include="Infrastructure\Singleton.cs" />
     <Compile Include="IStartupTask.cs" />

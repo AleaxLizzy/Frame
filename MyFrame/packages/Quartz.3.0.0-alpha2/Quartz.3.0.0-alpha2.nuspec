@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Quartz</id>
+    <version>3.0.0-alpha2</version>
+    <title>Quartz.NET</title>
+    <authors>Marko Lahma</authors>
+    <owners>Marko Lahma</owners>
+    <licenseUrl>http://www.apache.org/licenses/LICENSE-2.0</licenseUrl>
+    <projectUrl>http://www.quartz-scheduler.net/</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Quartz.NET Scheduling Framework for .NET Platform</description>
+    <summary>Quartz.NET Scheduling Framework for .NET Platform</summary>
+    <releaseNotes>FIXES
+
+* fix scheduler signaling not working with AdoJobStore due to thread local storage
+* thread local state removed altogether
+* quartz.serializer.type was required even though non-serializing RAMJobStore was in use
+
+BREAKING CHANGES
+
+* IStatefulJob was removed, been obsolete since 2.x
+* ISemaphore interface now passes Guid requestorId that defines lock owner instead of implicit thread name</releaseNotes>
+    <copyright>Copyright Marko Lahma</copyright>
+    <tags>scheduling tasks jobs triggers scheduler threading</tags>
+    <dependencies>
+      <group targetFramework=".NETFramework4.5" />
+      <group targetFramework="Unsupported0.0">
+        <dependency id="Microsoft.CSharp" version="4.0.1" />
+        <dependency id="System.AppContext" version="4.1.0" />
+        <dependency id="System.Collections.Concurrent" version="4.0.12" />
+        <dependency id="System.Collections.NonGeneric" version="4.0.1" />
+        <dependency id="System.Collections.Specialized" version="4.0.1" />
+        <dependency id="System.ComponentModel.TypeConverter" version="4.1.0" />
+        <dependency id="System.Data.SqlClient" version="4.1.0" />
+        <dependency id="System.Diagnostics.Debug" version="4.0.11" />
+        <dependency id="System.Diagnostics.Process" version="4.1.0" />
+        <dependency id="System.Diagnostics.StackTrace" version="4.0.1" />
+        <dependency id="System.Diagnostics.Tools" version="4.0.1" />
+        <dependency id="System.Dynamic.Runtime" version="4.0.11" />
+        <dependency id="System.IO.FileSystem" version="4.0.1" />
+        <dependency id="System.Linq" version="4.1.0" />
+        <dependency id="System.Net.NameResolution" version="4.0.0" />
+        <dependency id="System.Net.Requests" version="4.0.11" />
+        <dependency id="System.Reflection.Extensions" version="4.0.1" />
+        <dependency id="System.Reflection.TypeExtensions" version="4.1.0" />
+        <dependency id="System.Runtime.Extensions" version="4.1.0" />
+        <dependency id="System.Runtime.Serialization.Primitives" version="4.1.1" />
+        <dependency id="System.Runtime.Serialization.Xml" version="4.1.1" />
+        <dependency id="System.Text.RegularExpressions" version="4.1.0" />
+        <dependency id="System.Threading" version="4.0.11" />
+        <dependency id="System.Threading.Tasks" version="4.0.11" />
+        <dependency id="System.Threading.Tasks.Parallel" version="4.0.1" />
+        <dependency id="System.Threading.Thread" version="4.0.0" />
+        <dependency id="System.Threading.ThreadPool" version="4.0.10" />
+        <dependency id="System.Xml.XmlDocument" version="4.0.1" />
+        <dependency id="System.Xml.XmlSerializer" version="4.0.11" />
+        <dependency id="System.Data.Common" version="4.1.0" />
+      </group>
+    </dependencies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="System.Configuration" targetFramework=".NETFramework4.5" />
+      <frameworkAssembly assemblyName="System.Data" targetFramework=".NETFramework4.5" />
+      <frameworkAssembly assemblyName="System.Net.Http" targetFramework=".NETFramework4.5" />
+      <frameworkAssembly assemblyName="System.Runtime.Remoting" targetFramework=".NETFramework4.5" />
+      <frameworkAssembly assemblyName="System.Runtime.Serialization" targetFramework=".NETFramework4.5" />
+      <frameworkAssembly assemblyName="System.Web" targetFramework=".NETFramework4.5" />
+      <frameworkAssembly assemblyName="System.Xml" targetFramework=".NETFramework4.5" />
+    </frameworkAssemblies>
+  </metadata>
+</package>

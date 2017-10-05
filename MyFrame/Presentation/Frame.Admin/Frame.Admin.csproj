@@ -77,6 +77,9 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\packages\Newtonsoft.Json.6.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
     </Reference>
+    <Reference Include="Quartz">
+      <HintPath>..\..\packages\Quartz.3.0.0-alpha2\lib\net45\Quartz.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Data.Entity" />
@@ -84,6 +87,8 @@
     <Reference Include="System.Net.Http.Formatting, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\..\packages\Microsoft.AspNet.WebApi.Client.4.0.30506.0\lib\net40\System.Net.Http.Formatting.dll</HintPath>
     </Reference>
+    <Reference Include="System.Runtime.Remoting" />
+    <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
@@ -357,7 +362,9 @@
     <Content Include="assets\fonts\weathericons-regular-webfont.eot" />
     <Content Include="assets\fonts\weathericons-regular-webfont.ttf" />
     <Content Include="assets\fonts\weathericons-regular-webfont.woff" />
-    <Content Include="EntLibConfig.config" />
+    <Content Include="Configs\EntLibConfig.config" />
+    <Content Include="Configs\Quartz.config" />
+    <Content Include="Configs\Quartz.Jobs.config" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\bootstrapValidator.js" />
     <Content Include="Scripts\bootstrapValidator.min.js" />
@@ -376,7 +383,6 @@
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
     <Content Include="Scripts\_references.js" />
-    <Content Include="Unity.Mvc4.README.txt" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -404,6 +410,10 @@
     <Content Include="Views\Navigate\List.cshtml" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\Frame.Schedule\Frame.Schedule.csproj">
+      <Project>{ee44a84e-61d9-4ebb-a815-d3912d025f71}</Project>
+      <Name>Frame.Schedule</Name>
+    </ProjectReference>
     <ProjectReference Include="..\..\Libraries\Frame.Core\Frame.Core.csproj">
       <Project>{b4af023a-a11a-483d-bbae-59dbbd881bb2}</Project>
       <Name>Frame.Core</Name>

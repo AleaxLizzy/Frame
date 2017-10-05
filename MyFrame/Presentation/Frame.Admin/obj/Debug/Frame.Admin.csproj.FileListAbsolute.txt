@@ -178,3 +178,6 @@ D:\gitRoot\Frame\MyFrame\Presentation\Frame.Admin\bin\Microsoft.Practices.Enterp
 D:\gitRoot\Frame\MyFrame\Presentation\Frame.Admin\bin\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.xml
 D:\gitRoot\Frame\MyFrame\Presentation\Frame.Admin\bin\Microsoft.Practices.EnterpriseLibrary.Logging.dll
 D:\gitRoot\Frame\MyFrame\Presentation\Frame.Admin\bin\Microsoft.Practices.EnterpriseLibrary.Logging.xml
+D:\gitRoot\Frame\MyFrame\Presentation\Frame.Admin\bin\Quartz.dll
+D:\gitRoot\Frame\MyFrame\Presentation\Frame.Admin\bin\Frame.Schedule.dll
+D:\gitRoot\Frame\MyFrame\Presentation\Frame.Admin\bin\Frame.Schedule.pdb

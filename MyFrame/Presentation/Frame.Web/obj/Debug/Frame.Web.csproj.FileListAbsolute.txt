@@ -371,3 +371,4 @@ D:\gitRoot\Frame\MyFrame\Presentation\Frame.Web\bin\Microsoft.Practices.Enterpri
 D:\gitRoot\Frame\MyFrame\Presentation\Frame.Web\bin\Microsoft.Practices.EnterpriseLibrary.Common.xml
 D:\gitRoot\Frame\MyFrame\Presentation\Frame.Web\bin\Microsoft.Practices.EnterpriseLibrary.Logging.dll
 D:\gitRoot\Frame\MyFrame\Presentation\Frame.Web\bin\Microsoft.Practices.EnterpriseLibrary.Logging.xml
+D:\gitRoot\Frame\MyFrame\Presentation\Frame.Web\bin\Quartz.dll

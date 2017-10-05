@@ -20,7 +20,7 @@ namespace Frame.Admin.Controllers
         }
         public ActionResult Index()
         {
-            Test();
+
             return View();
         }
 

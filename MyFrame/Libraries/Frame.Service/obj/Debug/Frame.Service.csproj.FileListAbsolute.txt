@@ -124,3 +124,4 @@ D:\gitRoot\Frame\MyFrame\Libraries\Frame.Service\bin\Debug\Newtonsoft.Json.xml
 D:\gitRoot\Frame\MyFrame\Libraries\Frame.Service\obj\Debug\Frame.Service.csprojResolveAssemblyReference.cache
 D:\gitRoot\Frame\MyFrame\Libraries\Frame.Service\obj\Debug\Frame.Service.dll
 D:\gitRoot\Frame\MyFrame\Libraries\Frame.Service\obj\Debug\Frame.Service.pdb
+D:\gitRoot\Frame\MyFrame\Libraries\Frame.Service\bin\Debug\Quartz.dll

@@ -20,6 +20,16 @@ namespace Frame.Core.Infrastructure
         /// <summary>
         /// Gets the configured Unity container.
         /// </summary>
+        /// 
+        public T Resolve<T>() where T : class
+        {
+            return Current.Resolve<T>();
+        }
+
+        public IEnumerable<T> ResolveAll<T>() where T : class
+        {
+            return Current.ResolveAll<T>();
+        }
         #endregion
 
     }

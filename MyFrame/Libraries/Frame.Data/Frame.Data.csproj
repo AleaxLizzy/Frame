@@ -96,7 +96,7 @@
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="PagedList.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ServiceDependencyRegistrar.cs" />
+    <Compile Include="ServiceDependencyRegistrer.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

@@ -55,6 +55,11 @@ namespace Frame.Core.Infrastructure
             return _container.Resolve<T>();
         }
 
+        public T Resolve<T>(string key) where T : class
+        {
+            return _container.Resolve<T>(key);
+        }
+
         public IEnumerable<T> ResolveAll<T>() where T : class
         {
             return _container.ResolveAll<T>();
